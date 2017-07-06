@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <!-- Sabe o porque de utilizar o meta viewport : Google -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> Descobri para que funciona! -->
+    <meta name="description" content="Curriculo sobre os trabalhos de Irlan Freitas.">
+    <meta name="keywords" content="irlan freitas, curriculo, informações, rh">
+    <title>Irlan Freitas</title>
+
+    <!--CSS Externo -->
+    <link rel="stylesheet" type="text/css" href="../estilo.css">
+
+    <!--CSS Interno -->
+    <style>
+    /* Seletor especifíco somente onde */
+    .nobullets li {
+        list-style-type: none;
+        color: #000DAC;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- (RPG Type - Uma página) - Usar história solutis -->
+    <!-- Uso de CSS Inline-->
+    <h1 style="color: blue">Irlan Freitas&trade;</h1><!-- Usando entidades para representar caracteres especiais -->
+        <!-- Avatar Solutis -->
+        <!--style colocado por mim :) --> 
+        <!--img é uma tag de substituíção pois no lugar dela será colocado o conteúdo -->
+        <p><img src="..\Images\lifeNotFound.jpg" width="300px" height="300px" alt="Irlan Freitas" style="border: 3px purple solid;"> </p>
+    
+
+    <!-- Básicamente tudo deve ter xp -->
+    <h2>Características</h2>
+        <p>Perseverança<br /> <!-- Forma mais correta, em vez de ficar criando vários paragrafos -->
+        Humor<br /> <!-- Padrão de tag XHTML -->
+        Comunicação<br /> 
+        Trabalho em equipe</p>
+
+    <h2>Contato</h2>
+        <!-- Uso de Hiperlink para os perfils com uma aba nova -->
+        <p> <a href="https://www.linkedin.com/in/irlanfreitas/" target="_blank">Linkedin</a><br /> 
+            <a href="mailto:irlan.freitas@hotmail.com" target="_blank">Outlook</a><br /> 
+            (71) 99194-7936</p>
+
+    <h2>Objetivo</h2>
+        <!-- &nbsp; - Unbreakable space, quando não se quer que se seja 'quebrado' os espaços -->
+        <!-- Ou adicionar mais espaços -->
+        <!-- WebSemantica Ex: em - enfatizar, strong - aumenta importancia -->
+        <p>Crescer&nbsp;<em>sempre</em> na area de tecnologia da <strong>informação</strong>.</p> <!-- A melhorar o texto -->
+
+    <h2>Skills</h2>
+        <ul class="nobullets" > <!--ul: unordened list, lista não ordenada -->
+            <li>HTML5</li> <!--li: list item -->
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>JavaEE</li>
+        </ul>
+
+    <h2>Formação Acadêmica</h2>
+        <p>Cursando Sistema de Informação <br />
+        Inglês Básico - Unex</p>
+
+    <h2>Side Projects</h2>
+        <p>Sabores da Eli<br />
+        Web Curriculo</p>
+
+    <h2>Experiências</h2>
+        <dl class="experiencias"><!--dl: definition list: lista com os nomes e suas explições, parecido com o dicionário -->
+            <dt>Atual <!--dt: definition term: termo que será explicado -->
+                <dd>Solutis</dd> <!--dd: definition data: explicação do termo -->
+            </dt>
+            <dt>Anteriores</dt>
+                    <dd>CPCBrasil</dd>
+                    <dd>Capgemini</dd>       
+        </dl>
+
+</body>
+
+</html>
